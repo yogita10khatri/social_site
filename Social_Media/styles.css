@@ -1,0 +1,458 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html.index,
+body.index {
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    
+    place-items: center;
+    background: linear-gradient(315deg, #0d0808, #d7e1ec);
+}
+
+body.facebook {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(222, 220, 224);
+}
+
+.container {
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftpart {
+    width: 40%;
+}
+
+h1 {
+    color: royalblue;
+    font-size: 80px;
+}
+
+h3 {
+    color: black;
+    font-size: 30px;
+}
+
+.rightpart {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    width: 450px;
+    height: 370px;
+    box-shadow: -10px -10px 15px rgba(0, 0, 0, 0.1),
+    10px 10px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+form.fb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+
+input {
+    width: 380px;
+    height: 50px;
+    margin: 10px 0px;
+    padding: 0px 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    background-color: royalblue;
+    color: white;
+}
+
+p{
+    color: royalblue;
+}
+
+hr{
+    border: 1px solid #ccc;
+    width: 320px;
+    margin: 20px 0px;
+}
+
+.createaccount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: green;
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+span {
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: 20px;
+}
+
+body.twitter {
+    background: #000;
+}
+
+.twtlogin {
+    background: #fff;
+    padding: 30px 120px;
+    width: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 30px;
+}
+
+.twtlogin h2 {
+    margin-bottom: 20px;
+}
+
+.twtlogin button img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.twtlogin button {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 30px;
+    background: transparent;
+    border: 1px solid #999;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.twtlogin hr {
+    border: 0;
+    height: 1px;
+    background: #c2c2c2;
+    margin: 5px;
+}
+
+.twtlogin span {
+    display: block;
+    width: 40px;
+    margin: auto;
+    background: #fff;
+    font-size: 14px;
+    margin-top: -16px;
+}
+
+.twtlogin form button {
+    color: white;
+    font-weight: bold;
+    background: #1D9BF0;
+}
+
+.twtlogin p {
+    color: #000;
+    font-weight: bold;
+}
+
+.sign {
+    background-color: #000;
+    color: #1D9BF0;
+}
+
+body.insta {
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-div form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+.form-div form .instaLogo {
+    width: 200px;
+    margin: 10px 0;
+}
+
+.form-div form .input {
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    margin: 3px;
+}
+
+.login-btn {
+    width: 80%;
+    padding: .4rem;
+    font-weight: 700;
+    background-color: rgb(1, 183, 255);
+    border: none;
+    border-radius: 8px;
+    margin: 8px 0px;
+    color: white;
+}
+
+#or {
+    margin: 20px 0;
+}
+
+#or:before,
+#or:after {
+    content: '------';
+    color: rgba(128, 128, 128, 0.7);
+    margin: 0 10px;
+}
+
+.fb-login {
+    font-weight: 700;
+    font-size: 95%;
+    color: rgb(85, 0, 255);
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.sign-up {
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 15px;
+    margin: 10px;
+}
+
+.get-app {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.store {
+    display: flex;
+    align-items: center;
+}
+
+#play {
+    width: 190px;
+}
+
+#microsoft {
+    width: 135px;
+    border-radius: 8px;
+}
+
+body.gtb {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parent-box-gtb {
+    width: 300px;
+    height: 600px;
+}
+
+.icon-gtb {
+    font-size: 55px;
+    text-align: center;
+    color: #232023;
+}
+
+.head-gtb {
+    margin: 24px 0;
+    text-align: center;
+    font-size: 25px;
+    color: #504c50;
+}
+
+.login-box-gtb {
+    background: #afb7c01e;
+    width: 100%;
+    height: 250px;
+    padding: 15px 16px 18px 16px;
+    border: 1px solid #8ba0b570;
+    border-radius: 7px;
+}
+
+
+
+.wrapper {
+    display: inline-flex;
+}
+
+.wrapper .icon {
+    position: relative;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -ms-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #fff;
+    color: #ffffff;
+    padding: 5px 8px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    border-radius: 4px;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.wrapper .tooltip::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #fff;
+    bottom: -3px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -webkit-transform: translate(-50%) rotate(45deg);
+    -moz-transform: translate(-50%) rotate(45deg);
+    -ms-transform: translate(-50%) rotate(45deg);
+    -o-transform: translate(-50%) rotate(45deg);
+    -webkit-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -moz-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -ms-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    -o-transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.01);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+    background: #3b5999;
+    color: #fff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background: #46c1f6;
+    color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background: #e1306c;
+    color: #fff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+    background: #333333;
+    color: #fff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+    background: #e92828;
+    color: #fff;
+}   
